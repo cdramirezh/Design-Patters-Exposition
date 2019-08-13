@@ -1,0 +1,41 @@
+
+public class ProcesoVAData {
+	private String captura;
+	private String preprocesamiento;
+	private String segmentacion;
+	private String extractCarac;
+	private String recognPattern;
+	
+	public ProcesoVAData(String captura, String preprocesamiento, String segmentacion, String extractCarac, String recognPattern) {
+		this.captura = captura;
+		this.preprocesamiento = preprocesamiento;
+		this.segmentacion = segmentacion;
+		this.extractCarac = extractCarac;
+		this.recognPattern = recognPattern;
+	}
+ 
+	public String getCaptura() {
+		return captura;
+	}
+	
+	public void setCaptura(String imagenes) {
+		this.captura = imagenes;
+	}
+
+	public String getPreprocesamiento() {
+		return preprocesamiento;
+	}
+	
+	public String getSegmentacion() {
+		return segmentacion;
+	}
+	
+	public String getExtractCarac() {
+		return extractCarac;
+	}
+	
+	public String getrecognPattern() {
+		return recognPattern;
+	}
+	
+}
