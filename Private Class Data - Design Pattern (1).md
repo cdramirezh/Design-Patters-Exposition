@@ -6,8 +6,8 @@ El Private Class Data Design Pattern es un patrón estructural que busca protege
 - Solo en caso de necesitarse, alguno de los atributos puede tener un *setter*.
 #### En resumen, el patrón busca encapsular la inicialización de atributos de clase.
 
-### Imagen prrona
-![Qué lástima, no carga la imagen](https://drive.google.com/open?id=1qBtJdYLB8Ar04iPpP_iqI4OuQtQLHNIi)
+### Ejemplo gráfico:
+![](https://drive.google.com/open?id=1qBtJdYLB8Ar04iPpP_iqI4OuQtQLHNIi)
 
 ## ¿Cuándo es útil este patrón?
 
@@ -40,3 +40,5 @@ Con el Private Class Data Design, podemos implementar atributos que solo pueden 
 - Redundar los *getters* y *setters* en caso de que se requiera manipulación desde fuera de la clase principal
 
 - Puede volverse tedioso estar llamando métodos constantemente para poder usar variables que tengo bajo mis narices. 
+
+- Algunos lenguajes de programación, como java, permiten declarar una variable final e inicializarla en el constructor, por lo que este patrón de diseño pierde algo de su utilidad y sentido en java.
