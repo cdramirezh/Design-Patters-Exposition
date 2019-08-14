@@ -7,7 +7,7 @@ El Private Class Data Design Pattern es un patrón estructural que busca protege
 #### En resumen, el patrón busca encapsular la inicialización de atributos de clase.
 
 ### Ejemplo gráfico:
-![](https://drive.google.com/open?id=1qBtJdYLB8Ar04iPpP_iqI4OuQtQLHNIi)
+![](https://i.pinimg.com/originals/ba/ad/45/baad45210a556ca7c26cd8367282f061.png)
 
 ## ¿Cuándo es útil este patrón?
 
